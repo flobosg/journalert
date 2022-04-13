@@ -6,6 +6,6 @@ This script will read a list of RSS feeds, check for articles published in the l
 
 * Fill out `config.py`:
 	- `feeds` is a tuple of RSS feed URLs, for example `("https://www.science.org/action/showFeed?type=axatoc&feed=rss&jc=science", "http://feeds.nature.com/nature/rss/current")`.
-	- `no_pubdate` is the same, but reserved for feeds lacking a pubData tag, such as [this one](http://rss.sciencedirect.com/publication/science/0959440X).
+	- `no_pubdate` is the same, but reserved for feeds lacking a pubDate tag, such as [this one](http://rss.sciencedirect.com/publication/science/0959440X).
 
 * Run `journalert.py`.
