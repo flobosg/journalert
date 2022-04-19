@@ -1,6 +1,10 @@
 # Journalert
 
-This script will read a list of RSS feeds, check for articles published in the last 24 hours and send an email with links of them. I run this as a cron job to check feeds from academic journals, hence the name.
+This script will read a list of RSS feeds, check for articles published in the last 24 hours and send an email with links to them. I run this as a cron job to check feeds from academic journals, hence the name.
+
+# Dependencies
+
+* feedparser
 
 # Usage
 
